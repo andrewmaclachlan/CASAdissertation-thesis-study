@@ -5,7 +5,7 @@ author: "Andy MacLachlan"
 output:
   xaringan::moon_reader:
     css: ["default", "rladies", "rladies-fonts"]    
-    lib_dir: 
+    lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
@@ -63,7 +63,7 @@ library(fontawesome)
 ---
 class: inverse, center, middle
 
-![writing gif](img/phdwrite.gif)
+![writing gif](libs/img/phdwrite.gif)
 
 ---
 class: inverse, center, middle
@@ -163,7 +163,7 @@ class: inverse, center, middle
 
 class: inverse, center, middle
 
-![](img/choice.png)
+![](libs/img/choice.png)
 
 
 ---
@@ -476,11 +476,11 @@ class: inverse, center, middle
 
 * Set heading level styles
 ```{r echo=FALSE, out.width = "300pt", fig.align='center'}
-knitr::include_graphics('img/heading_styles.png') 
+knitr::include_graphics('libs/img/heading_styles.png') 
 ```
 * Use numbered headings
 ```{r echo=FALSE, out.width = "300pt", fig.align='center'}
-knitr::include_graphics('img/headings.png') 
+knitr::include_graphics('libs/img/headings.png') 
 ```
 ---
 # Captions
@@ -488,13 +488,13 @@ knitr::include_graphics('img/headings.png')
 * Insert captions for figures and tables
 
 ```{r echo=FALSE, out.width = "200pt", fig.align='center'}
-knitr::include_graphics('img/caption.png') 
+knitr::include_graphics('libs/img/caption.png') 
 ```
 
 * Automatically cross reference them in the text<sup>1</sup>
 
 ```{r echo=FALSE, out.width = "200pt", fig.align='center'}
-knitr::include_graphics('img/cross-reference.png') 
+knitr::include_graphics('libs/img/cross-reference.png') 
 ```
 
 .footnote[
@@ -506,12 +506,12 @@ knitr::include_graphics('img/cross-reference.png')
 * Auto insert table of contents and table of figures
 
 ```{r echo=FALSE, out.width = "300pt", fig.align='center'}
-knitr::include_graphics('img/table_of_contents.png') 
+knitr::include_graphics('libs/img/table_of_contents.png') 
 ```
 *AND table of tables
 
 ```{r echo=FALSE, out.width = "300pt", fig.align='center'}
-knitr::include_graphics('img/table_of_tables.png') 
+knitr::include_graphics('libs/img/table_of_tables.png') 
 ```
 
 ---
@@ -520,13 +520,13 @@ knitr::include_graphics('img/table_of_tables.png')
 * Insert current chapter title into the page header
 
 ```{r echo=FALSE, out.width = "200pt", fig.align='center'}
-knitr::include_graphics('img/header_chapter_name.png') 
+knitr::include_graphics('libs/img/header_chapter_name.png') 
 ```
 
 * Insert a footer - unlink from previous section to change style (e.g. roman numerals for table of contents then numbers for the rest of the documents)
 
 ```{r echo=FALSE, out.width = "200pt", fig.align='center'}
-knitr::include_graphics('img/page_number_format.png') 
+knitr::include_graphics('libs/img/page_number_format.png') 
 ```
 
 ---
@@ -535,7 +535,7 @@ knitr::include_graphics('img/page_number_format.png')
 * Useful to have different formatting on different sections - e.g. title page, abstract and then contents 
 
 ```{r echo=FALSE, out.width = "300pt", fig.align='center'}
-knitr::include_graphics('img/page_break.png') 
+knitr::include_graphics('libs/img/page_break.png') 
 ```
 
 ---
@@ -630,7 +630,7 @@ source: https://arm.rbind.io/slides/bookdown.html#12]
 
 class: inverse, center, middle
 
-![](img/phd_process.gif)
+![](libs/img/phd_process.gif)
 
 ---
 # Important files
