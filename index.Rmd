@@ -475,7 +475,7 @@ class: inverse, center, middle
 # Word 2.0
 
 * Set heading level styles
-```{r  echo=FALSE, fig.align="default", fig.show="hold", out.width="30%"}
+```{r  echo=FALSE, fig.align='center', out.width="30%"}
 knitr::include_graphics('img/heading_styles.png') 
 ```
 * Use numbered headings
@@ -488,7 +488,7 @@ knitr::include_graphics('img/headings.png')
 * Insert captions for figures and tables
 
 ```{r echo=FALSE, out.width = "200pt", fig.align='center'}
-knitr::include_graphics('/img/caption.PNG', error=FALSE) 
+knitr::include_graphics('img/caption.PNG') 
 ```
 
 * Automatically cross reference them in the text<sup>1</sup>
