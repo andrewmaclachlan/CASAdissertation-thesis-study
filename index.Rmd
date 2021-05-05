@@ -160,13 +160,6 @@ class: inverse, center, middle
 
 #+ Novel: What is new? 
 ---
-
-class: inverse, center, middle
-
-![](img/choice.png)
-
-
----
 # Methdology headings - study area
 
 Start with a high level overview
@@ -476,11 +469,11 @@ class: inverse, center, middle
 
 * Set heading level styles
 ```{r  echo=FALSE, fig.align='center', out.width="30%"}
-knitr::include_graphics('img/heading_styles.png') 
+knitr::include_graphics('img/heading_styles.PNG') 
 ```
 * Use numbered headings
 ```{r echo=FALSE, out.width = "300pt", fig.align='center'}
-knitr::include_graphics('img/headings.png') 
+knitr::include_graphics('img/headings.PNG') 
 ```
 ---
 # Captions
@@ -488,13 +481,13 @@ knitr::include_graphics('img/headings.png')
 * Insert captions for figures and tables
 
 ```{r echo=FALSE, out.width = "200pt", fig.align='center'}
-knitr::include_graphics('img/caption.png') 
+knitr::include_graphics('img/caption.PNG') 
 ```
 
 * Automatically cross reference them in the text<sup>1</sup>
 
 ```{r echo=FALSE, out.width = "200pt", fig.align='center'}
-knitr::include_graphics('img/cross-reference.png') 
+knitr::include_graphics('img/cross-reference.PNG') 
 ```
 
 .footnote[
@@ -506,12 +499,12 @@ knitr::include_graphics('img/cross-reference.png')
 * Auto insert table of contents and table of figures
 
 ```{r echo=FALSE, out.width = "200pt", fig.align='center'}
-knitr::include_graphics('img/table_of_contents.png') 
+knitr::include_graphics('img/table_of_contents.PNG') 
 ```
 *AND table of tables
 
 ```{r echo=FALSE, out.width = "200pt", fig.align='center'}
-knitr::include_graphics('img/table_of_tables.png') 
+knitr::include_graphics('img/table_of_tables.PNG') 
 ```
 
 ---
@@ -520,13 +513,13 @@ knitr::include_graphics('img/table_of_tables.png')
 * Insert current chapter title into the page header
 
 ```{r echo=FALSE, out.width = "200pt", fig.align='center'}
-knitr::include_graphics('img/header_chapter_name.png') 
+knitr::include_graphics('img/header_chapter_name.PNG') 
 ```
 
 * Insert a footer - unlink from previous section to change style (e.g. roman numerals for table of contents then numbers for the rest of the documents)
 
 ```{r echo=FALSE, out.width = "200pt", fig.align='center'}
-knitr::include_graphics('img/page_number_format.png') 
+knitr::include_graphics('img/page_number_format.PNG') 
 ```
 
 ---
@@ -535,7 +528,7 @@ knitr::include_graphics('img/page_number_format.png')
 * Useful to have different formatting on different sections - e.g. title page, abstract and then contents 
 
 ```{r echo=FALSE, out.width = "300pt", fig.align='center'}
-knitr::include_graphics('img/page_break.png') 
+knitr::include_graphics('img/page_break.PNG') 
 ```
 
 ---
