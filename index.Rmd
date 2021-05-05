@@ -488,7 +488,7 @@ knitr::include_graphics('libs/img/headings.png')
 * Insert captions for figures and tables
 
 ```{r echo=FALSE, out.width = "200pt", fig.align='center'}
-knitr::include_graphics('/libs/img/caption.png', error=FALSE) 
+knitr::include_graphics('/libs/img/caption.PNG', error=FALSE) 
 ```
 
 * Automatically cross reference them in the text<sup>1</sup>
