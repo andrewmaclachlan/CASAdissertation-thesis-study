@@ -505,12 +505,12 @@ knitr::include_graphics('img/cross-reference.png')
 
 * Auto insert table of contents and table of figures
 
-```{r echo=FALSE, out.width = "300pt", fig.align='center'}
+```{r echo=FALSE, out.width = "200pt", fig.align='center'}
 knitr::include_graphics('img/table_of_contents.png') 
 ```
 *AND table of tables
 
-```{r echo=FALSE, out.width = "300pt", fig.align='center'}
+```{r echo=FALSE, out.width = "200pt", fig.align='center'}
 knitr::include_graphics('img/table_of_tables.png') 
 ```
 
